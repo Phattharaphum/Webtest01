@@ -207,7 +207,7 @@ a.ln{
 	padding: 6px 25px 6px 25px;
 }
 .nev4 {
-    font-family:space mono ;
+	font-family:space mono ;
 	font-weight:700;
     color: white;
     margin-right: 0.3em;
@@ -217,9 +217,7 @@ a.ln{
 	border-radius: 10px;
 	padding: 6px 25px 6px 25px;
 }
-.nev4:hover {
-		background-color: #4E4E4F;
-}
+
 .Footer {
 	text-align: center;
 	font-family: space mono;
@@ -283,7 +281,7 @@ a:hover {
 	flex: 50%;
   max-width: 45%;
   padding: 0 4px;
-	margin-left: 35px
+margin-left: 40px
 }
 
 .piccolumn2 {
