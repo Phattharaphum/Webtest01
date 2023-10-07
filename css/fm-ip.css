@@ -1,3 +1,5 @@
+@media screen and (min-width: 768px)
+{
 /*html {zoom: 80%;}*/
 body {
 	width: 100%;
@@ -304,4 +306,5 @@ margin-left: 25px
   max-width: 25%;
   padding: 0 4px;
 	display: none;
+}
 }

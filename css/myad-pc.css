@@ -1,6 +1,6 @@
 @media screen and (min-width: 1200px)
 {
-html {zoom: 80%;}
+/*html {zoom: 80%;}*/
 body {
 	background-image: url(https://raw.githubusercontent.com/Phattharaphum/MyCSTUPassport-6609612160/main/image/bg01.jpg);
 	background-attachment:fixed;
@@ -47,7 +47,6 @@ div.mhead {
 	position: relative;
 	margin-left: 2em;
 	margin-top: 0em;
-	
 }
 div.nev1 {
     color:white ;
