@@ -122,7 +122,7 @@ p.mnn {
 	font-family: Bebas Neue;
 	font-size: 120pt;
 	margin: 0;
-	margin-left: 490px;
+	margin-left: 500px;
 	margin-top: -50px;
 }
 p.mnn2 {
@@ -130,7 +130,7 @@ p.mnn2 {
 	font-family: Bebas Neue;
 	font-size: 180pt;
 	margin: 0;
-	margin-left: 180px;
+	margin-left: 190px;
 	margin-top: -20px;
 }
 p.mnn3 {
@@ -186,6 +186,7 @@ div.mnf1{
 	padding-top: 2em;
 	padding-bottom: 2em;
 	background-color: #191919;
+	width: 1200px;
 }
 div.mnf2{
 	margin-top: 2em;
@@ -529,7 +530,9 @@ h1 {
 }
 
 .imgac1 {
-	width: 1150px;
+	width: 1200px;
+	margin-left: 0;
+	margin-top: 0px;
 }
 
 .mnp {

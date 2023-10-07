@@ -193,6 +193,7 @@ div.mnf2{
 }
 div.mnf3{
 	margin-top: 1em;
+	width: 1200px;
 }
 div.mn2f4{
 	margin-top: 0em;
@@ -210,8 +211,7 @@ div.maininfo1 {
 	padding: 10px 20px 5px 20px;
 	border-radius: 20px;
 	color: white;
-	width: 800px;
-	transition:all 400ms ease-in-out ;
+	width: 1100px;
 } 
 
 p {
@@ -386,7 +386,7 @@ p.bb4 {
 	padding: 20px 10px 20px 10px;
 	color: white;
 	margin-left: 1.2em;
-	width: 900px;
+	width: 1000px;
 	display: inline-flex;
 	
 }
@@ -520,4 +520,26 @@ a:hover {
 	color: white;
 	font-family: kanit;
 	
+}
+
+.tond {
+		font-family: Kanit;
+	font-size: 35pt;
+	font-weight:700;
+	background-color:white;
+	display: inline-flex;
+	padding: 20px 10px 20px 10px;
+	margin: auto;
+	border-radius: 25px;
+	color:#252422;
+	margin-left: 1em;
+	
+}
+
+.imgpf {
+	font-family: kanit;
+	font-size: 30pt;
+	color: white;
+	margin-left: 2.5em;
+	font-weight: bold;
 }

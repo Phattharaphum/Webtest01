@@ -151,6 +151,7 @@ div.mnf1{
 	padding-bottom: 2em;
 	display: flex;
 	flex-direction: column;
+	width: 1300px;
 	
 }
 p.mnp {
@@ -262,10 +263,9 @@ a:hover {
 }
 
 .mainpic1 {
-	width: 800px;
-	margin-top: 45px;
-    vertical-align: middle;
-	margin-left: 170px
+	width: 1250px;
+	margin-top: 15px;
+	margin-left: 0px;
 }
 
 .piccolumn {

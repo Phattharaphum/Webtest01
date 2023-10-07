@@ -152,6 +152,7 @@ div.mnf1{
 	padding-bottom: 2em;
 	display: flex;
 	flex-direction: column;
+	width: 1300px;
 	
 }
 p.mnp {
@@ -161,7 +162,8 @@ p.mnp {
 	margin-left: 50px;
 	color: white;
 	font-weight: 400;
-	line-height: 60px
+	line-height: 60px;
+	margin-top: 0.5em;
 }
 div.maininfo5 {
 	display: flex;
@@ -262,10 +264,10 @@ a:hover {
 }
 
 .mainpic1 {
-	width: 800px;
-	margin-left: 210px;
-	margin-top: 25px;
-	
+	width: 1295px;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
     vertical-align: middle;
 }
 
