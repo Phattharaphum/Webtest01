@@ -1,4 +1,4 @@
-/*html {zoom: 50%;}*/
+/*html {zoom: 20%;}*/
 body {
 	background-image: url(https://raw.githubusercontent.com/Phattharaphum/MyCSTUPassport-6609612160/main/image/bg01.jpg);
 	width: 100%;
@@ -152,7 +152,7 @@ div.mnf1{
 	padding-bottom: 2em;
 	display: flex;
 	flex-direction: column;
-	width: 1300px;
+	width: 1200px;
 	
 }
 p.mnp {
@@ -264,7 +264,7 @@ a:hover {
 }
 
 .mainpic1 {
-	width: 1295px;
+	width: 1220px;
 	margin-left: 0px;
 	margin-top: 0px;
 	margin-bottom: 0px;
