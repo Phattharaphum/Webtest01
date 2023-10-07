@@ -41,6 +41,10 @@ div.mhead {
     padding: 15px;
     border-radius: 0 0 2em 2em;
     margin: 0 0 2em 2em;
+	transform: scale(1);
+	position: relative;
+	margin-left: 2em;
+	margin-top: 0em;
 }
 div.nev1 {
     color:white ;
