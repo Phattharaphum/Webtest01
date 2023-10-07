@@ -1,9 +1,7 @@
 @media screen and (min-width: 1200px)
 {
-/*html {zoom: 80%;}*/
+html {zoom: 80%;}
 body {
-    /*background-image: linear-gradient(to left ,#13222E, #4D5F6C, #7E888C);
-	background-color: #252422; */
 	background-image:url(https://raw.githubusercontent.com/Phattharaphum/MyCSTUPassport-6609612160/main/image/bg01.jpg);
 	background-attachment:fixed;
 	background-size: cover;
@@ -470,7 +468,8 @@ div.maininfo5 {
 	border-radius: 20px;
 	width: 300px;
 	margin-left: 4em;
-	transition:all 600ms
+	transition:all 600ms;
+	align-items: center;
 }
 .cont1:hover{
 	background-color: #292929;
@@ -523,7 +522,7 @@ a.ln{
 .freespace {
 	height: 300px;
 	background-color: transparent;
-	
+	display: inline-flex;
 }
 .upbody {
 	display: flex;
