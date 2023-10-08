@@ -1,4 +1,4 @@
-/*html {zoom: 20%;}*/
+html {zoom: 50%;}
 body {
 	width: 100%;
 	height: 100%;
@@ -169,7 +169,7 @@ div.maininfo5 {
 	border-radius: 0px;
 	color: white;
 	width: 100%;
-	height: 150px;
+	height: 150px;	
 	
 }
 .pic2 {
@@ -183,26 +183,15 @@ div.maininfo5 {
 	padding: 0.5em;
 	border-radius: 20px;
 	width: 300px;
-	margin-left: 3em;
+	margin-left: 1.8em;
 	transition:all 600ms
 }
-.cont1:hover{
-	background-color: #292929;
-}
+
 a.ln{
 	margin: 1em;
 	color: white;
 }
 .nev3 {
-	font-family:space mono ;
-    color: white;
-    margin-right: 2em;
-    font-weight: bold;
-    font-size: 20pt;
-	border-radius: 10px;
-	padding: 6px 25px 6px 25px;
-}
-.nev4 {
 	font-family:space mono ;
 	font-weight:700;
     color: white;
@@ -213,11 +202,21 @@ a.ln{
 	border-radius: 10px;
 	padding: 6px 25px 6px 25px;
 }
-
+.nev4 {
+	 font-family:space mono ;
+	font-weight:700;
+    color: white;
+    margin-right: 0.3em;
+    font-weight: bold;
+    font-size: 30pt;
+	background-color: #686868;
+	border-radius: 10px;
+	padding: 6px 25px 6px 25px;
+}
 .Footer {
 	text-align: center;
 	font-family: space mono;
-	font-size: 30pt;
+	font-size: 50pt;
 	font-weight: bold;
 	color: white;
 	background-color: #0D0D0D;
@@ -228,6 +227,7 @@ a.ln{
 .freespace {
 	height: 300px;
 	background-color: transparent;
+	display: none;
 	
 }
 .upbody {
