@@ -306,4 +306,40 @@ margin-left: 25px;
   padding: 0 4px;
 	display: none;
 }
+.neds {
+	display: flex;
+	flex-direction: row;
+	color: white;
+	font-family: kanit;
+	font-size: 30pt;
+	line-height: 20pt;
+	font-weight: bold;
+}
 
+.ned1 {
+	background-color: #0A0A0A;
+	width: 20%;
+	align-items: center;
+	vertical-align: center;
+	padding: 0;
+}
+
+.ned2 {
+	background-color: #0A0A0A;
+	width: 40%;
+}
+
+.ned3 {
+	background-color: #363636;
+	width: 40%;
+	padding: 0;
+}
+
+.psd1 {
+	text-align: center;
+	color: white;
+}
+
+.kad {
+	width: 20px;
+}

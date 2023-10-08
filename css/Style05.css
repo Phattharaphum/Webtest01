@@ -1,18 +1,24 @@
-/*html {zoom: 60%;}*/
+@media screen and (min-width: 1200px)
+{
+/*html {zoom: 80%;}*/
 body {
+	background-image: url(https://raw.githubusercontent.com/Phattharaphum/MyCSTUPassport-6609612160/main/image/bg01.jpg);
 	width: 100%;
 	height: 100%;
 	margin-top: 0;
-	background-color: #0E0E0E;
+	background-size:cover;
+	background-attachment:fixed;
 }
 .sbody {
     margin: auto;
+	max-width:1500px;
 	height: 100%;
+	box-shadow: 0px 0px 15px 5px #0E0E0E;
 }
 div.mainbd {
 	display: inline-flex;
 	flex-direction: column;
-	background-color: #111111;
+	background-color: #30302F;
 	margin: auto;
 	width: 100%;
 	background-attachment: fixed;
@@ -24,9 +30,10 @@ div.W1 {
 	display: inline-flex;
 	flex-direction: column;
 	width: 100%;
-	background-image: url("imgvdo/bg02blur.jpg");
+	background-image: url(https://raw.githubusercontent.com/Phattharaphum/MyCSTUPassport-6609612160/main/image/bg01blur.jpg);
 	background-attachment:fixed;
-	background-size:contain;
+	background-size: cover;
+	
 }
 div.mhead {
     background-color: #242424;
@@ -34,25 +41,25 @@ div.mhead {
     padding: 15px;
     border-radius: 0 0 2em 2em;
     margin: 0 0 2em 2em;
-	transform: scale(1.6);
+	transform: scale(1);
 	position: relative;
-	margin-left: 5em;
-	margin-top: 5em;
+	margin-left: 2em;
+	margin-top: 0em;
 }
 div.nev1 {
     color:white ;
     align-self: baseline;
-    margin-left: 5em;
-    margin-top: 2em;
+    margin-left: 30em;
+    margin-top: 4em;
 }
 a.nev2 {
     font-family:space mono ;
 	font-weight:700;
     color: white;
-    margin-right: 0.3em;
+    margin-right: 4em;
     font-weight: bold;
-    font-size: 30pt;
-	background-color: #262626;
+    font-size: 20pt;
+	background-color: #4E4E4F;
 	border-radius: 10px;
 	padding: 6px 25px 6px 25px;
 }
@@ -103,7 +110,7 @@ div.tmn {
 	flex-direction: row;
 	width: 100%;
 	padding-top: 2em;
-	padding-bottom: 1em;
+	padding-bottom: 5em;
 	
 }
 div.mn {
@@ -115,16 +122,16 @@ div.mn {
 p.mnn2 {
 	color: white;
 	font-family: Bebas Neue;
-	font-size: 90pt;
+	font-size: 100pt;
 	margin: 0;
 	margin-left: 0px;
 	text-align: center;
-	line-height: 20px
+	line-height: 100px
 }
 p.mnn3 {
 	color: white;
 	font-family: Bebas Neue;
-	font-size: 120pt;
+	font-size: 150pt;
 	margin: 0;
 	margin-left: 0px;
 	text-align: center;
@@ -144,10 +151,9 @@ strong{
 
 div.mnf1{
 	padding-top: 0em;
-	padding-bottom: 2em;
+	padding-bottom: 6em;
 	display: flex;
 	flex-direction: column;
-	width: 1200px;
 	
 }
 p.mnp {
@@ -164,12 +170,12 @@ div.maininfo5 {
 	flex-direction: row;
 	font-size: 20pt;
 	font-family: Kanit;
-	line-height: 1pt;
+	line-height: 2pt;
 	background-color: #0D0D0D;
 	border-radius: 0px;
 	color: white;
 	width: 100%;
-	height: 150px;	
+	height: 150px;
 	
 }
 .pic2 {
@@ -179,14 +185,16 @@ div.maininfo5 {
 	display: inline-flex;
 	flex-direction: row;
 	background-color: #111111;
-	margin-top: 10px;
-	padding: 0.5em;
+	margin-top: 20px;
+	padding: 1em;
 	border-radius: 20px;
 	width: 300px;
-	margin-left: 1.8em;
+	margin-left: 4em;
 	transition:all 600ms
 }
-
+.cont1:hover{
+	background-color: #292929;
+}
 a.ln{
 	margin: 1em;
 	color: white;
@@ -195,28 +203,35 @@ a.ln{
 	font-family:space mono ;
 	font-weight:700;
     color: white;
-    margin-right: 0.3em;
+    margin-right: 2em;
     font-weight: bold;
-    font-size: 30pt;
-	background-color: #686868;
+    font-size: 20pt;
 	border-radius: 10px;
 	padding: 6px 25px 6px 25px;
 }
+.nev3:hover {
+		background-color: #4E4E4F;
+}
+
+
+
 .nev4 {
 	 font-family:space mono ;
 	font-weight:700;
     color: white;
-    margin-right: 0.3em;
+    margin-right: 2em;
     font-weight: bold;
-    font-size: 30pt;
-	background-color: #686868;
+    font-size: 20pt;
 	border-radius: 10px;
 	padding: 6px 25px 6px 25px;
+}
+.nev4:hover {
+		background-color: #4E4E4F;
 }
 .Footer {
 	text-align: center;
 	font-family: space mono;
-	font-size: 50pt;
+	font-size: 30pt;
 	font-weight: bold;
 	color: white;
 	background-color: #0D0D0D;
@@ -227,7 +242,6 @@ a.ln{
 .freespace {
 	height: 300px;
 	background-color: transparent;
-	display: none;
 	
 }
 .upbody {
@@ -242,7 +256,6 @@ h1 {
 	background-color: #0E0E0E;
 	margin:0;
 	color: white;
-	width: 100%;
 }
  a:link {
       text-decoration: none;
@@ -258,84 +271,18 @@ a:hover {
 
 .mainpic1 {
 	width: 100%;
-	margin-top: 25px;
+	margin-top: 8px;
     vertical-align: middle;
 }
 
 .piccolumn {
-  flex: 25%;
-  max-width: 25%;
-  padding: 0 4px;
+  max-width: 80%;
+  padding: 5em;
+  margin: auto;
 }
 
 .d1 {
 	display: flex;
 	flex-direction: row;
 }
-
-.piccolumn1 {
-	flex: 50%;
-  max-width: 45%;
-  padding: 0 4px;
-margin-left: 40px
-}
-
-.piccolumn2 {
-	  flex: 50%;
-  max-width: 45%;
-  padding: 0 4px;
-	margin-left: 35px
-}
-
-.piccolumn3 {
-	  flex: 25%;
-  max-width: 25%;
-  padding: 0 4px;
-	display: none;
-}
-
-.piccolumn4 {
-	  flex: 25%;
-  max-width: 25%;
-  padding: 0 4px;
-	display: none;
-}
-
-.neds {
-	display: flex;
-	flex-direction: row;
-	color: white;
-	font-family: kanit;
-	font-size: 30pt;
-	line-height: 20pt;
-	font-weight: bold;
-}
-
-.ned1 {
-	background-color: #0A0A0A;
-	width: 20%;
-	align-items: center;
-	vertical-align: center;
-	padding: 0;
-	text-align: center;
-}
-
-.ned2 {
-	background-color: #363636;
-	width: 40%;
-}
-
-.ned3 {
-	background-color: #0A0A0A;
-	width: 40%;
-	padding: 0;
-}
-
-.psd1 {
-	text-align: center;
-	color: white;
-}
-
-.kad {
-	width: 20px;
 }

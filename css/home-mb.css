@@ -1,4 +1,4 @@
-/*html {zoom: 50%;}*/
+/*html {zoom: 20%;}*/
 body {
 	width: 100%;
 	height: 100%;
@@ -26,8 +26,7 @@ div.W1 {
 	width: 100%;
 	background-image: url("imgvdo/bg02blur.jpg");
 	background-attachment:fixed;
-	background-size:contain;
-	
+	background-size:contain;	
 }
 div.mhead {
     background-color: #242424;
@@ -38,9 +37,7 @@ div.mhead {
 	transform: scale(1.6);
 	position: relative;
 	margin-left: 5em;
-	margin-top: 5em;
-	
-		
+	margin-top: 5em;			
 }
 div.nev1 {
     color:white ;
@@ -193,13 +190,6 @@ div.mnf3{
 	margin-top: 5em;
 	background-color: #191919;
 }
-div.mn2f4{
-	margin-top: 0em;
-	display: flex;
-	flex-direction: row;
-	
-	
-}
 div.maininfo1 {
 	display: inline-flex;
 	font-size: 40pt;
@@ -210,7 +200,6 @@ div.maininfo1 {
 	color: white;
 	width: 800px;
 } 
-
 p {
 	margin: 1em;
 }
@@ -223,118 +212,12 @@ div.maininfo2 {
 	font-size: 30pt;
 	font-family: Kanit;
 	line-height: 30pt;
-	/*background-image: linear-gradient(#4D5F6C,#273745); */
 	padding: 10px 20px 5px 20px;
 	border-radius: 40px;
 	color: white;
-	/*box-shadow:12px 12px 20px 1px rgba(0, 0, 0, 0.7);
-	box-shadow: 20px 20px 2px 0px #111E2B;*/
 	margin-left: 0.2em;
 	width: 1150px;
 	height: 1400px
-}
-.mfpic1 {
-	width: 230px;
-	margin: auto;
-	position:relative;
-	top:-20px;
-	left: 20px;
-	transition:transform 400ms ease-in-out;
-	box-shadow: 7px 7px 2px 0px #0E0E0E;
-	border-radius: 10px;
-}
-.mfpic1:hover {
-	transform: scale(1.3, 1.3);
-}
-.mfpic2 {
-	width: 360px;
-	margin: auto;
-	position:relative;
-	top:00px;
-	left: 75px;
-	transition:transform 400ms ease-in-out;
-	box-shadow: 7px 7px 2px 0px #0E0E0E;
-	border-radius: 5px;
-}
-.mfpic2:hover {
-	transform: scale(1.3, 1.3);
-}
-.mfpic3 {
-	width: 230px;
-	margin: auto;
-	position:relative;
-	top:90px;
-	left: 50px;
-	transition:transform 400ms ease-in-out;
-	box-shadow: 7px 7px 2px 0px #0E0E0E;
-	border-radius: 0px;
-}
-.mfpic3:hover {
-	transform: scale(1.2, 1.2);
-}
-.mfpic4 {
-	width: 500px;
-	margin: auto;
-	position:relative;
-	top:50px;
-	left: 150px;
-	transition:transform 400ms ease-in-out;
-	box-shadow: 10px 10px 2px 0px #233543;
-	border-radius: 20px;
-}
-.mfpic5 {
-	width: 300px;
-	margin: auto;
-	position:relative;
-	top:190px;
-	left: 120px;
-	transition:transform 400ms ease-in-out;
-	box-shadow: 7px 7px 2px 0px #0E0E0E;
-	border-radius: 20px;
-}
-.mfpic5:hover {
-	transform: scale(1.2, 1.2);
-}
-.mfpic6 {
-	width: 300px;
-	margin: auto;
-	position:relative;
-	top:290px;
-	left: 100px;
-	transition:transform 400ms ease-in-out;
-	box-shadow: 7px 7px 2px 0px #0E0E0E;
-	border-radius: 20px;
-}
-.mfpic6:hover {
-	transform: scale(1.2, 1.2);
-}
-.mfpic7 {
-	width: 600px;
-	margin: auto;
-	position:relative;
-	top:100px;
-	left: 600px;
-	transition:transform 400ms ease-in-out;
-	/*box-shadow:8px 8px 5px 1px rgba(0, 0, 0, 0.4);*/
-	box-shadow: 7px 7px 2px 0px #0E0E0E;
-	border-radius: 40px;
-}
-.mfpic7:hover {
-	transform: scale(1.2, 1.2);
-	box-shadow: 15px 15px 0px 0px #0E0E0E;
-}
-.mfpic8 {
-	width: 300px;
-	margin: auto;
-	position:relative;
-	top:-60px;
-	left: 160px;
-	transition:transform 400ms ease-in-out;
-	box-shadow: 7px 7px 2px 0px #0E0E0E;
-	border-radius: 40px;
-}
-.mfpic8:hover {
-	transform: scale(1.2, 1.2);
 }
 p.bb1 {
 	font-weight: 500;
@@ -362,7 +245,6 @@ div.maininfo3 {
 	font-size: 20pt;
 	font-family: Kanit;
 	line-height: 20pt;
-	/*background-image: linear-gradient(#4D5F6C,#273745);*/
 	padding: 20px 0px 5px 30px;
 	border-radius: 60px;
 	color: white;
@@ -371,7 +253,6 @@ div.maininfo3 {
 	width: 700px;
 	transition:all 400ms ease-in-out ;
 } 
-
 p.bb4 {
 	font-weight: 500;
 	background-color: #212121;
@@ -443,8 +324,6 @@ div.maininfo5 {
 	margin-left: 1.8em;
 	transition:all 600ms
 }
-
-
 a.ln{
 	margin: 1em;
 	color: white;
