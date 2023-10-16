@@ -42,8 +42,10 @@ div.mhead {
 div.nev1 {
     color:white ;
     align-self: baseline;
-    margin-left: 5em;
+    margin-left: 30em;
     margin-top: 2em;
+	display: flex;
+	flex-direction: column;
 }
 a.nev2 {
     font-family:space mono ;
@@ -51,10 +53,12 @@ a.nev2 {
     color: white;
     margin-right: 0.3em;
     font-weight: bold;
-    font-size: 30pt;
+    font-size: 35pt;
 	background-color: #262626;
 	border-radius: 10px;
 	padding: 6px 25px 6px 25px;
+	margin-top: 1em;
+	text-align: center;
 }
 div.s1head {
     display:inline-flex;
@@ -334,10 +338,12 @@ a.ln{
     color: white;
     margin-right: 0.3em;
     font-weight: bold;
-    font-size: 30pt;
+    font-size: 35pt;
 	background-color: #686868;
 	border-radius: 10px;
 	padding: 6px 25px 6px 25px;
+	margin-top: 1em;
+	text-align: center;
 }
 .nev4 {
 	 font-family:space mono ;
@@ -345,10 +351,11 @@ a.ln{
     color: white;
     margin-right: 0.3em;
     font-weight: bold;
-    font-size: 30pt;
+    font-size: 35pt;
 	background-color: #686868;
 	border-radius: 10px;
 	padding: 6px 25px 6px 25px;
+	margin-top: 1em;
 }
 
 .Footer {
