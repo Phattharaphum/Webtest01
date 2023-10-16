@@ -1,4 +1,4 @@
-/*html {zoom: 20%;}*/
+/*html {zoom: 30%;}*/
 body {
 	width: 100%;
 	height: 100%;
@@ -40,12 +40,12 @@ div.mhead {
 	margin-top: 5em;			
 }
 div.nev1 {
+	display: flex;
+	flex-direction: column;
     color:white ;
     align-self: baseline;
     margin-left: 30em;
     margin-top: 2em;
-	display: flex;
-	flex-direction: column;
 }
 a.nev2 {
     font-family:space mono ;

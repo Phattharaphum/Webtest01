@@ -43,12 +43,11 @@ div.mhead {
 	margin-top: 4em;		
 }
 div.nev1 {
+	flex-direction: row;
     color:white ;
     align-self: baseline;
     margin-left: 4em;
     margin-top: 2em;
-	display: flex;
-	flex-direction: row;
 }
 a.nev2 {
     font-family:space mono ;
